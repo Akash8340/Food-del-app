@@ -4,8 +4,8 @@ A full-stack Food Delivery Web Application where users can sign up, log in, brow
 
 The platform also includes an Admin Panel where admins can manage food items, view orders, and update their status.
 
-✨ Features
-👤 User Side (Frontend)
+✨** Features**
+👤** User Side (Frontend)**
 
 User Authentication (Signup & Login with JWT)
 
