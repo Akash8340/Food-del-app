@@ -1,94 +1,57 @@
-Food Del (Tomato)
+# Food Del 🍅
 
-A full-stack Food Delivery Web Application where users can sign up, log in, browse food items, add them to the cart, place orders with Stripe payment integration, and track their order status in real-time.
+**Food Del** is a modern full-stack food delivery web application where users can sign up, log in, add items to the cart, make payments via Stripe, and track their orders. The application also includes a powerful admin panel to manage items and orders.
 
-The platform also includes an Admin Panel where admins can manage food items, view orders, and update their status.
+---
 
-✨** Features**
-👤** User Side (Frontend)**
+## Table of Contents
 
-User Authentication (Signup & Login with JWT)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
 
-Cart Management (Add, update, and remove items)
+---
 
-Stripe Payment Integration for secure checkout
+## Features
 
-Order Tracking with real-time status updates
+### User Side:
+- User registration and login using JWT authentication
+- Password hashing for secure storage
+- Browse food items and add them to cart
+- Make payments using **Stripe payment gateway**
+- Track order status in real-time
+- Modern and responsive UI using React
 
-Responsive Design (works across devices)
+### Admin Side:
+- Add, edit, and remove food items
+- List all items with details
+- Update order status (Processing, Shipped, Delivered)
+- Admin panel built using React
 
-Food Categories & item details view
+### Backend:
+- Node.js with Express.js
+- JWT authentication for secure APIs
+- Password hashing using bcrypt
+- Token generation for secure login sessions
+- CRUD operations for items and orders
+- RESTful API design
 
-🔑 Admin Panel
+---
 
-Add Items with name, description, price, category, and image
+## Technologies Used
 
-List Items with full details
+- **Frontend:** React.js, React Router, Axios, Tailwind CSS (or your chosen CSS framework)
+- **Backend:** Node.js, Express.js, MongoDB
+- **Authentication:** JWT, bcrypt
+- **Payment:** Stripe
+- **Version Control:** Git & GitHub
 
-Delete/Update Items
+---
 
-Order Management – change status (Pending → Processing → Out for Delivery → Delivered)
+## Project Structure
 
-Dashboard View for quick insights
-
-⚙️ Backend (API & Business Logic)
-
-JWT Authentication for secure routes
-
-Password Hashing with bcrypt
-
-RESTful APIs for authentication, food items, cart, and orders
-
-MongoDB Database with Mongoose ODM
-
-Multer for image upload handling
-
-Token Generation & Validation for sessions
-
-🛠 Tech Stack
-Frontend (User + Admin Panel)
-
-React.js
-
-React Router
-
-Axios
-
-Context API / Hooks
-
-Stripe Checkout
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB + Mongoose
-
-JWT
-
-Bcrypt
-
-Multer
-
-Other Tools
-
-Postman
-
-Git & GitHub
-
-Vercel / Netlify (Frontend Hosting)
-
-Render / Railway (Backend Hosting)
-JWT Authentication for secure routes
-
-Password Hashing with bcrypt
-
-RESTful APIs for authentication, food items, cart, and orders
-
-MongoDB Database with Mongoose ODM
-
-Multer for image upload handling
-
-Token Generation & Validation for sessions
