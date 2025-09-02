@@ -75,7 +75,7 @@ function PlaceOrder() {
               <input required onChange={onChangeHandler} name="lastName" value={data.lastName} type="text" placeholder='Last name'/>
             </div>
             <input required onChange={onChangeHandler} name="email" value={data.email}  type="email" placeholder='Email address'/>
-            <input required onChange={onChangeHandler} name="street" value={data.state} type="text" placeholder='Street'/>
+            <input required onChange={onChangeHandler} name="street" value={data.street} type="text" placeholder='Street'/>
             <div className="multi-fields">
               <input required onChange={onChangeHandler} name='city' value={data.city} type="text" placeholder='City'/>
               <input required onChange={onChangeHandler} name='state' value={data.state} type="text" placeholder='State'/>
